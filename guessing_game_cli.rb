@@ -1,6 +1,6 @@
 # Code your solution here!
 def run_guessing_game
-  number_winner = rand(1..6)
+  number_winner = rand(1..7)
   input = gets.chomp.to_s
   if input == "exit"
     puts "Goodbye!"
